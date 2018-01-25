@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AppRouter from './routers/AppRouter';
 
 const jsx = (
-    <h1>Save a lot of money with credit cards!</h1>
+    <div>
+        <AppRouter />
+    </div>
 );
 
 ReactDOM.render(jsx, document.getElementById('app'));
